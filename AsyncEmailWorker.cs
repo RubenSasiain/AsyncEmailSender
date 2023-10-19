@@ -38,7 +38,7 @@
                 Console.WriteLine("Error: " + ex.Message);
             }
         }
-        public static async void setEmail(string newMail)
+        public static async void SetEmail(string newMail)
         {
             try
             {
