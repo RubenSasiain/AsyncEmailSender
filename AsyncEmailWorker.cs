@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Mail;
 using System.Windows.Forms;
 
-namespace MyPersonalStocker.Utilities
+namespace MyProyect.Utilities // I recommend always to use a folder with the name Utilities or something like that for the clases that works with external tools
 {
     public class EmailWorker
     {
