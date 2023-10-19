@@ -1,5 +1,5 @@
 # EmailSender
-A class that recieves a message and sends to an email specificated in that specific class.
+A class that recieves a message and sends to an email specificated in that class.
 
 Data:
       Global:
