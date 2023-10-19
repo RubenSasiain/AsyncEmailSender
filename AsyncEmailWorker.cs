@@ -9,7 +9,7 @@
                 string toAddress = GetEmail();
                 string subject = "Subject";
 
-                var fromAddress = new MailAddress("EmailThatSendsMessages@gmail.com", "Issue");
+                var fromAddress = new MailAddress("EmailThatSendsMessages@gmail.com", "Display Name In The Mail");
                 var to = new MailAddress(toAddress, toAddress);
                 const string fromPassword = "123456789qwerty"; // Isn't the password of the email, is a key given by Google Mail, see "readme.md" file
 
