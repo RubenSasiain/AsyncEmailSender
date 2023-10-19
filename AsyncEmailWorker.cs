@@ -1,12 +1,3 @@
-using System;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Mail;
-using System.Windows.Forms;
-
-namespace MyProyect.Utilities // I recommend always to use a folder with the name Utilities or something like that for the clases that works with external tools
-{
     public class EmailWorker
     {
         public static string emailPath = "C:/User/Document/Where/The/Email/Is/Saved";
@@ -79,4 +70,3 @@ namespace MyProyect.Utilities // I recommend always to use a folder with the nam
             return retEmail;
         }
     }
-}
