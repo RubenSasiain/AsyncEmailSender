@@ -20,7 +20,7 @@ namespace MyPersonalStocker.Utilities
 
                 var fromAddress = new MailAddress("EmailThatSendsMessages@gmail.com", "Issue");
                 var to = new MailAddress(toAddress, toAddress);
-                const string fromPassword = "123456789qwerty"; // Isn't the password of the email, is a key given by Google Mail, see "readme.txt" file
+                const string fromPassword = "123456789qwerty"; // Isn't the password of the email, is a key given by Google Mail, see "readme.md" file
 
                 var smtp = new SmtpClient
                 {
